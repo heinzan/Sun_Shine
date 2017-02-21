@@ -66,6 +66,9 @@ public class ForecastFragment extends Fragment {
             FetchWeatherTask weatherTask = new FetchWeatherTask();
             weatherTask.execute("Rangoon");
             return true;
+        }else if (id == R.id.action_settings) {
+            startActivity(new Intent(getActivity(),SettingsActivity.class));
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

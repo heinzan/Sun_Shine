@@ -34,10 +34,5 @@ public class DetailActivityFragment extends Fragment {
         return rootview;
     }
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        inflater.inflate(R.menu.forecastfragment, menu);
-    }
-
 
 }
